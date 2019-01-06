@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#040335"
+    android:layout_height="match_parent"
+    tools:context="iitg.shubham.servall.Settings">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="30dp"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:id="@+id/username"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserStatus"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:id="@+id/userstatus"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="167dp"
+        android:text="Email"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="256dp"
+        android:text="IITG ROLL No."
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="30dp"
+
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="226dp"
+        android:text="IITG ROLL"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/changeimg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:background="@drawable/button"
+        android:text="Change Image"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/changestatus"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Change Status"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+</RelativeLayout>

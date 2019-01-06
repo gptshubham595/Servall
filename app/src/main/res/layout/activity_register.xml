@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040335"
+    tools:context="iitg.shubham.servall.Register">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pic"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/shape3"
+        android:layout_centerHorizontal="true"
+        android:hint="   Name"
+        android:inputType="textCapCharacters|textCapWords|textCapSentences|textPersonName"
+        android:padding="8dp"
+        android:textColor="#7de9ff"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/email"
+        android:textColor="#7de9ff"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="222dp"
+        android:background="@drawable/shape3"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+    <EditText
+        android:textColor="#7de9ff"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape3"
+        android:layout_marginTop="278dp"
+        android:typeface="serif"
+        android:hint="  Password"
+        android:textSize="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:padding="5dp"
+        android:textStyle="normal|italic"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/shape3"
+        android:hint="   Phone No."
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="#7de9ff"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/shape3"
+        android:hint="   IITG Roll No."
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="#7de9ff"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/skill"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="454dp"
+        android:background="@drawable/shape3"
+        android:hint="   only one best skill"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#7de9ff"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:typeface="serif"
+        android:layout_marginTop="514dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/create"
+        android:padding="5dp"
+        android:textStyle="normal|italic"
+        />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context="iitg.shubham.servall.Login">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/shape3"
+        android:hint="  Email "
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#7de9ff"
+        android:textSize="30dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/shape3"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="#7de9ff"
+        android:textSize="35dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/button"
+        android:padding="5dp"
+        android:text="Log In"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
